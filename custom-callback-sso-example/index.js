@@ -41,7 +41,6 @@ const createToken = existingAuthentication => {
 
 app.get("/", (req, res) => {
     const email = req.cookies?.loggedInEmail
-    console.log(req.cookies)
 
     const signedInTemplate = `
         <p>
