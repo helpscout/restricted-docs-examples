@@ -7,3 +7,4 @@ This repository contains code examples of how to integrate into Restricted Docs.
 ## Examples
 
 * [Custom Callback Login Example](./custom-callback-login-example)
+* [Custom Callback SSO Example](./custom-callback-sso-example)
