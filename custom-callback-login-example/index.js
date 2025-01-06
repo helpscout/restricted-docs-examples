@@ -32,7 +32,7 @@ app.use(express.urlencoded({extended: true}))
 app.get('/signin', (req, res) => {
     // Help Scout will always include the path that the visitor was requesting
     // as a query parameter
-    const returnTo = req.query.returnTo
+    const returnTo = req.query.returnTo || '/'
 
     // This could be a redirect to your already existing login page
     // In this example we render a simple HTML sign in page
